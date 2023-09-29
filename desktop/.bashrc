@@ -21,7 +21,7 @@ export VISUAL='vim'
 export GTK_USE_PORTAL=1
 
 # Streamline editing common files
-alias eb='vim ~/.bashrc; source ~/.bashrc; exec bash'
+alias eb='vim ~/.bashrc; source ~/.bashrc'
 alias ev='vim ~/.vimrc'
 
 # Need this so I can run `sudo [alias]` 
@@ -44,6 +44,7 @@ alias gcp='git cherry-pick'
 alias gch='git checkout'
 alias gcl='git clone'
 alias gcm='git commit -m'
+alias gd='git diff'
 alias gf='git fetch'
 alias gfa='git fetch --all'
 alias gpl='git pull'
